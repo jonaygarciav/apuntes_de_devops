@@ -9,7 +9,8 @@ Realizaremos la comprobación del CHECKSUM mediante la herramienta de consola _c
 
 
 ```
-C:\Users\Jonay>cd E:\ISOs\ubuntu\22.04
+C:\Users\Jonay>E:
+E:\ISOs\ubuntu\22.04>cd ISOs\ubuntu\22.04
 
 E:\ISOs\ubuntu\22.04>dir
  El volumen de la unidad E es VMs
@@ -40,4 +41,12 @@ SHA256 hash de ubuntu-22.04.4-desktop-amd64.iso:
 CertUtil: -hashfile comando completado correctamente.
 ```
 
-Una vez calculado el CHECKSUM, hay que comprobar que coincide con el que se encuentra dentro del fichero _SHA256SUMS.txt_.
+Una vez calculado el CHECKSUM, hay que comprobar que coincide con el que se encuentra dentro del fichero _SHA256SUMS.txt_. Con el comando _TYPE_ podemos ver el contenido de un fichero de text desde la terminal de Windows:
+
+```
+E:\ISOs\ubuntu\22.04>TYPE SHA256SUMS.txt
+071d5a534c1a2d61d64c6599c47c992c778e08b054daecc2540d57929e4ab1fd *ubuntu-22.04.4-desktop-amd64.iso
+45f873de9f8cb637345d6e66a583762730bbea30277ef7b32c9c3bd6700a32b2 *ubuntu-22.04.4-live-server-amd64.iso
+```
+
+Si coinciden es que los ficheros se han descargado correctamente.

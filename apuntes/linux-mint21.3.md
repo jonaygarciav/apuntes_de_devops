@@ -26,7 +26,7 @@ $ sudo ./VBoxLinuxAdditions.run
 $ sudo reboot
 ```
 
-Si vamos a utilizar carpetas compartidas es necesario añadir el usuario _alumno_ al grupo _vboxsf_:
+Si vamos a utilizar _carpetas compartidas_ es necesario añadir el usuario _alumno_ al grupo _vboxsf_:
 
 ```
 $ sudo usermod -aG vboxsf alumno
