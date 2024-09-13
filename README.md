@@ -9,6 +9,8 @@
 * [Instalación de Ubuntu Server 22.04](./apuntes/ub-server22.04.md)
 * [Instalación de Linux Mint 21.3 ](./apuntes/linux-mint21.3.md)
 
-## Acceso remoto a las Máquinas Virtuales
+## VirtualBox
+
+### Acceso remoto a las Máquinas Virtuales
 
 * [Acceso remoto a una VM Linux mediante SSH con el adaptador de red configurado en modo NAT](./apuntes/ssh-access.md)
