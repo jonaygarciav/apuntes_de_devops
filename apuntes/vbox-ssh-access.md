@@ -1,4 +1,4 @@
-# Instalación de Ubuntu Server 22.04 en VirtualBox
+# Acceso Remoto a Máquinas Virtuales en VirtualBox
 
 ## Acceso mediante SSH en modo NAT
 
