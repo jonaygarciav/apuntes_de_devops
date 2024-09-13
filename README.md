@@ -6,8 +6,8 @@
 
 ## Instalación de Sistemas Operativos
 
-* [Instalar Ubuntu Server 22.04 en VirtualBox](./apuntes/ub-server22.04.md)
-* [Instalar Linux Mint 21.3 en VirtualBox](./apuntes/linux-mint21.3.md)
+* [Instalación de Ubuntu Server 22.04](./apuntes/ub-server22.04.md)
+* [Instalación de Linux Mint 21.3 ](./apuntes/linux-mint21.3.md)
 
 ## Acceso remoto a las Máquinas Virtuales
 
