@@ -3,7 +3,7 @@
 
 ## Comprobar la integridad de un fichero en Windows
 
-Realizaremos la comprobación del CHECKSUM mediante la herramienta de consola _certutil_ de Windows. Para este ejemplo hemos descargado las imágenes _desktop_ y _server_ de Ubuntu 22.04, así como el archivo _SHA256SUMS.txt_ el cual contiene el CHECKSUM de cada uno de los ficheros ISO. Los CHECKSUM, tal y como indica el nombre del fichero, han sido generados utilizando el algoritmo _SHA256_:
+Realizaremos la comprobación del CHECKSUM mediante la herramienta de consola _certutil_ de Windows. Para este ejemplo hemos descargado las imágenes _desktop_ y _server_ de Ubuntu 22.04, así como el archivo _SHA256SUMS.txt_ el cual contiene el CHECKSUM de cada uno de los ficheros ISO.
 
 [https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/)
 
@@ -26,6 +26,8 @@ E:\ISOs\ubuntu\22.04>dir
                4 archivos  7.121.765.387 bytes
                2 dirs  648.009.555.968 bytes libres
 ```
+
+> __NOTA:__ Los CHECKSUM, tal y como indica el nombre del fichero, han sido generados utilizando el algoritmo _SHA256_:
 
 Calcularemos el CHECKSUM de cada uno de los ficheros descargados:
 
