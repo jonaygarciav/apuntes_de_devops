@@ -58,10 +58,10 @@ $ ssh -p 2222 alumno@localhost
 
 El cliente FTP FileZilla nos permite copiar archivos desde el Host (nuestro equipo) hacia el Guest (VM) o viceversa:
 
-* Servidor: localhost
-* Nombre de usuario: alumno
-* Contraseña: alumno
-* Puerto: 2222
+* __Servidor__: localhost
+* __Nombre de usuario__: alumno
+* __Contraseña__: alumno
+* __Puerto__: 2222
 
 Una vez rellenado los parámetros pulsamos el botón _Conexión Rápida_:
 
