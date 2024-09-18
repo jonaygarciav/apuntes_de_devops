@@ -6,7 +6,7 @@ Necesitamos crear una regla de _Reenvío de puertos_ para poder conectarnos desd
 * __Nombre__: SSH
 * __Protocolo__: TCP
 * __IP anfitrión__: (se deja vacío)
-* __Puerto anfitrión__: 2222
+* __Puerto anfitrión__: 2222 (puerto en el Host (nuestro equipo) que, cuando accedamos a él, redigirá peticiones al puerto invitado)
 * __IP invitado__: (se deja vacío)
 * __Puerto invitado__: 22 (puerto donde escucha peticiones el servidor SSH dentro de la VM)
 
