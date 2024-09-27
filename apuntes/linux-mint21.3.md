@@ -27,12 +27,12 @@ Tanto la creación de la VM, así como la instalación del SO y de las VirtualBo
 ![][18]
 ![][19]
 ![][20]
-![][21]
-![][22]
 
 ## Instalación de las VirtualBox Guest Additions
 
-Para realizar la instalación de las VirtualBox Guest Additions se debe realizar a través de la terminal de Linux Mint.
+Para realizar la instalación de las VirtualBox Guest Additions se debe realizar a través de la terminal de Linux Mint:
+
+![][21]
 
 Actualizar los paquetes del sistema:
 
@@ -84,3 +84,4 @@ $ sudo usermod -aG vboxsf alumno
 [18]: ./img/linux-mint21.3/so10.png "18"
 [19]: ./img/linux-mint21.3/so11.png "19"
 [20]: ./img/linux-mint21.3/so12.png "20"
+[21]: ./img/linux-mint21.3/terminal-icon.png "21"
