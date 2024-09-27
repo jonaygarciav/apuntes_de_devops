@@ -1,5 +1,9 @@
 # Apuntes de Virtualización
 
+## Virtualización
+
+* [Introducción](./apuntes/intro-virtualizacion.md)
+
 ## Integridad de ficheros
 
 * [Comprobar la integridad de un fichero](./apuntes/integrity-check.md)
