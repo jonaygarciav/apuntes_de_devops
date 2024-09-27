@@ -32,6 +32,8 @@ Tanto la creación de la VM, así como la instalación del SO y de las VirtualBo
 
 ## Instalación de las VirtualBox Guest Additions
 
+Para realizar la instalación de las VirtualBox Guest Additions se debe realizar a través de la terminal de Linux Mint.
+
 Actualizar los paquetes del sistema:
 
 ```
