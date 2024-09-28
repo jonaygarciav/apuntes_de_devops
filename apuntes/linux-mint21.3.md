@@ -34,7 +34,7 @@ Para realizar la instalación de las VirtualBox Guest Additions se debe realizar
 
 ![][21]
 
-Actualizar los paquetes del sistema:
+Actualizar los paquetes del sistema a través del terminal y luego reiniciamos la VM:
 
 ```
 $ sudo apt update
@@ -43,10 +43,12 @@ $ sudo apt upgrade
 $ sudo reboot
 ```
 
-Instalar dependencias:
+Instalar dependencias para que VirtualBox Guest Additions funcione correctamente a través de la terminal y luego reiniciamos la VM:
 
 ```
 $ sudo apt install build-essential dkms linux-headers-$(uname -r)
+
+$ sudo reboot
 ```
 
 Ahora pulsamos sobre el menú _Dispositivos-Instalar imagen de CD de los complementos del invitado..._:
