@@ -3,6 +3,7 @@
 ## Virtualización
 
 * [Introducción](./apuntes/intro-virtualizacion.md)
+* Documentación oficial Oracle VirtualBox 7.0 (inglés): [web](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/index.html), [pdf](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/EN-VBOX-7-0-USER.pdf).
 
 ## Integridad de ficheros
 

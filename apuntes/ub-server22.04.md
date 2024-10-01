@@ -22,7 +22,6 @@
 ![][20]
 ![][21]
 
-
 [01]: ./img/ub-server22.04/vbox-install/01.png "01"
 [02]: ./img/ub-server22.04/vbox-install/02.png "02"
 [03]: ./img/ub-server22.04/vbox-install/03.png "03"
