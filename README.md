@@ -12,6 +12,7 @@
 ## Instalación de Sistemas Operativos
 
 * [Instalación de Ubuntu Server 22.04](./apuntes/ub-server22.04.md)
+* [Instalación de Ubuntu Desktop 22.04](./apuntes/ub-desktop22.04.md)
 * [Instalación de Linux Mint 21.3 ](./apuntes/linux-mint21.3.md)
 
 ## VirtualBox: Acceso remoto a las Máquinas Virtuales
