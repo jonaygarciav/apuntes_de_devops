@@ -7,7 +7,6 @@ Realizaremos la comprobación del CHECKSUM mediante la herramienta de consola _c
 
 [https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/)
 
-
 ```
 C:\Users\Jonay>E:
 E:\ISOs\ubuntu\22.04>cd ISOs\ubuntu\22.04
