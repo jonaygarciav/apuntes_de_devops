@@ -3,7 +3,7 @@
 ## Virtualización
 
 * [Introducción](./apuntes/virtualizacion/intro-virtualizacion.md)
-* [Comprobar la integridad de un fichero](./apuntes/virtualizacion/integrity-check.md)
+* [Comprobación de la integridad de un fichero](./apuntes/virtualizacion/integrity-check.md)
 
 ### VirtualBox
 
