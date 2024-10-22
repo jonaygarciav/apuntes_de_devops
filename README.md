@@ -1,20 +1,22 @@
-# Apuntes de Virtualización
+# Apuntes de DevOps
 
 ## Virtualización
 
-* [Introducción](./apuntes/intro-virtualizacion.md)
-* Documentación oficial Oracle VirtualBox 7.0 (inglés): [web](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/index.html), [pdf](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/EN-VBOX-7-0-USER.pdf).
+* [Introducción](./apuntes/virtualizacion/intro-virtualizacion.md)
+* [Comprobar la integridad de un fichero](./apuntes/virtualizacion/integrity-check.md)
+* Documentación oficial Oracle de VirtualBox 7.0 ([web](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/index.html) | [pdf](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/EN-VBOX-7-0-USER.pdf))
+* Documentación oficial Oracle de VirtualBox 7.1 ([web](https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/index.html) | [pdf](https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/EN-VBOX-7-1-USER.pdf))
 
-## Integridad de ficheros
+### VirtualBox: Instalación de Sistemas Operativos
 
-* [Comprobar la integridad de un fichero](./apuntes/integrity-check.md)
+* [Instalación de Ubuntu Server 22.04 en VirtualBox 7.0](./apuntes/virtualizacion/ub-server22.04.md)
+* [Instalación de Ubuntu Desktop 22.04 en VirtualBox 7.0](./apuntes/virtualizacion/ub-desktop22.04.md)
+* [Instalación de Linux Mint 21.3 en VirtualBox 7.0](./apuntes/virtualizacion/linux-mint21.3.md)
 
-## Instalación de Sistemas Operativos
+### VirtualBox: Acceso remoto a las Máquinas Virtuales
 
-* [Instalación de Ubuntu Server 22.04](./apuntes/ub-server22.04.md)
-* [Instalación de Ubuntu Desktop 22.04](./apuntes/ub-desktop22.04.md)
-* [Instalación de Linux Mint 21.3 ](./apuntes/linux-mint21.3.md)
+* [Acceso remoto a una VM mediante SSH](./apuntes/virtualizacion/vbox-ssh-access.md)
 
-## VirtualBox: Acceso remoto a las Máquinas Virtuales
+## Git
 
-* [Acceso remoto a una VM mediante SSH](./apuntes/vbox-ssh-access.md)
+* [Clase de Git 04/10/2024](./apuntes/git/clase-git-20241003.md)

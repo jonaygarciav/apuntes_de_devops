@@ -34,5 +34,5 @@ El _hipervisor_ es el software de virtualización que se instala en la máquina 
 
 Si una máquina virtual requiere recursos de computación, como ciclos de CPU o memoria RAM, la solicitud se dirige primero al hipervisor. El hipervisor transmite entonces la solicitud al hardware subyacente, que realiza la tarea. 
 
-[01]: ./img/intro-virtualizacion/hypervisor.png "01"
-[02]: ./img/intro-virtualizacion/vtx-not-enabled.png "02"
+[01]: ../img/intro-virtualizacion/hypervisor.png "01"
+[02]: ../img/intro-virtualizacion/vtx-not-enabled.png "02"
