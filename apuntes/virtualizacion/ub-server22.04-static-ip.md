@@ -7,7 +7,7 @@ Vamos a configurar una IP estática a Ubuntu Server 22.04, en este ejemplo dentr
 * Puerta de enlace: 192.168.1.1
 * Servidores DNS: 8.8.8.8 8.8.4.4
 
-Creamos el fichero __01-network-configuration.yaml__ con la configuración de red:
+Modificamos el fichero __00-installer-config.yaml__ con la configuración de red:
 
 ```bash
 $ sudo nano /etc/netplan/00-installer-config.yaml
