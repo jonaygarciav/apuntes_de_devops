@@ -15,7 +15,7 @@ network:
     version: 2
     renderer: networkd
     ethernets:
-        eth0:
+        enp0s3:
             addresses:
                 - 192.168.1.100/24
             nameservers:
