@@ -36,14 +36,14 @@ Vamos a configurar una IP estática a Ubuntu Server 22.04, en este ejemplo dentr
 Creamos el fichero __01-network-configuration.yaml__ con la configuración de red:
 
 ```bash
-$ sudo nano /etc/netplan/01-network-configuration.yaml
+$ sudo nano /etc/netplan/00-installer-config.yaml
 network:
     version: 2
     renderer: networkd
     ethernets:
         eth0:
             addresses:
-                - 192.168.1.98/24
+                - 192.168.1.100/24
             nameservers:
                 addresses: [8.8.8.8, 8.8.4.4]
             routes:
@@ -54,7 +54,7 @@ network:
 Restringimos los permisos del fichero:
 
 ```bash
-$ sudo chmod 0600 /etc/netplan/01-network-configuration.yaml
+$ sudo chmod 0600 /etc/netplan/00-installer-config.yaml
 ```
 
 Aplicamos la configuración:
@@ -65,7 +65,7 @@ $ sudo networkplan apply
 
 Comprobamos los parámetros de red a ver si se han aplicado correctamente:
 
-```
+```bash
 # Comprobar IP y máscara de red
 $ ip a
 ...
