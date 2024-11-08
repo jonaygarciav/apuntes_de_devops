@@ -34,7 +34,7 @@ $ sudo chmod 0600 /etc/netplan/00-installer-config.yaml
 Aplicamos la configuración:
 
 ```bash
-$ sudo networkplan apply
+$ sudo netplan apply
 ```
 
 Comprobamos los parámetros de red a ver si se han aplicado correctamente:
