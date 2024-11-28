@@ -1,4 +1,4 @@
-# Tareas Posteriores a la Instalación
+# Tareas Posteriores a la Instalación de Ubuntu Desktop 22.04
 
 ## Actualización del sistema
 
@@ -53,7 +53,7 @@ Modificamos el fichero __00-installer-config.yaml__ con la configuración de red
 $ sudo nano /etc/netplan/00-installer-config.yaml
 network:
     version: 2
-    renderer: networkd
+    renderer: NetworkManager
     ethernets:
         enp0s3:
             addresses:
@@ -65,7 +65,7 @@ network:
                   via: 192.168.1.1
 ```
 
-__Nota__: en Ubuntu Server es importante configurar la opción `renderer` con el valor `networkd`. 
+__Nota__: en Ubuntu Desktop es importante configurar la opción `renderer` con el valor `NetworkManager`. 
 
 Restringimos los permisos del fichero:
 
