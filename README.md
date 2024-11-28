@@ -10,7 +10,7 @@
 Instalación de Sistemas Operativos:
 
 * [Instalación Ubuntu Server 22.04 en VirtualBox 7.0](./apuntes/virtualizacion/ub-server22.04.md)
-    * [Configuración Ip estática en Ubuntu Server 22.04](./apuntes/virtualizacion/ub-server22.04-static-ip.md)
+    * [Configuración después de la instalación de Ubuntu Server 22.04](./apuntes/virtualizacion/ub-server22.04-post-installation.md)
     * [Instalar Docker en Ubuntu Server 22.04](./apuntes/virtualizacion/ub-server22.04-docker-install.md)
 * [Instalación Ubuntu Desktop 22.04 en VirtualBox 7.0](./apuntes/virtualizacion/ub-desktop22.04.md)
 * [Instalación Linux Mint 21.3 en VirtualBox 7.0](./apuntes/virtualizacion/linux-mint21.3.md)
