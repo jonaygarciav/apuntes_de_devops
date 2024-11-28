@@ -13,7 +13,7 @@ $ sudo apt update
 $ sudo apt upgrade
 ```
 
-Limpiamos los paquetes que descargaron durante el proceso de instalación, que se almacenan en el directorio _/var/cache/apt/archives/_:
+Limpiamos los paquetes que se descargaron durante el proceso de instalación, que se almacenan en el directorio _/var/cache/apt/archives/_:
 
 ```bash
 $ sudo apt clean

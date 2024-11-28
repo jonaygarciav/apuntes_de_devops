@@ -14,7 +14,7 @@ $ sudo apt update
 $ sudo apt upgrade
 ```
 
-Limpiamos los paquetes que descargaron durante el proceso de instalación, que se almacenan en el directorio _/var/cache/apt/archives/_:
+Limpiamos los paquetes que se descargaron durante el proceso de instalación, que se almacenan en el directorio _/var/cache/apt/archives/_:
 
 ```bash
 $ sudo apt clean
@@ -175,8 +175,30 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 # Instalar servidos SSH
 
-Por defecto el servidor SSH no viene instalado en Ubuntu Desktop, para instalarlo:
+Por defecto el servidor SSH no viene instalado en Ubuntu Desktop, hay que instalarlo con el siguiente comando:
 
 ```bash
 $ sudo apt install openssh-server
+```
+
+```bash
+$ systemctl status sshd.service
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2024-11-28 07:17:07 UTC; 4h 41min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 687 (sshd)
+      Tasks: 1 (limit: 2226)
+     Memory: 6.7M
+        CPU: 45ms
+     CGroup: /system.slice/ssh.service
+             └─687 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+nov 28 07:17:07 ub-server systemd[1]: Starting OpenBSD Secure Shell server...
+nov 28 07:17:07 ub-server sshd[687]: Server listening on 0.0.0.0 port 22.
+nov 28 07:17:07 ub-server sshd[687]: Server listening on :: port 22.
+nov 28 07:17:07 ub-server systemd[1]: Started OpenBSD Secure Shell server.
+nov 28 07:30:52 ub-server sshd[1389]: Accepted password for alumno from 192.168.150.2 port 51720 ssh2
+nov 28 07:30:52 ub-server sshd[1389]: pam_unix(sshd:session): session opened for user alumno(uid=1000) by (uid=0)
 ```
