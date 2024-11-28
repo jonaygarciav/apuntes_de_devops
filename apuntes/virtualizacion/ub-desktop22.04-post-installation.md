@@ -1,6 +1,12 @@
 # Tareas Posteriores a la Instalación de Ubuntu Desktop 22.04
 
-## Actualización del sistema
+* Actualizar el sistema
+* Cambiar el hostname
+* Configurar IP estática
+* Ampliar el tamaño del disco (sin LVM)
+* Instalar servidor SSH
+
+## Actualizar el sistema
 
 ```bash
 $ sudo apt update
@@ -32,7 +38,7 @@ alumno@ub-server:~$ exec bash
 alumno@mysql-server:~$
 ```
 
-## Configuración IP estática
+## Configurar IP estática
 
 Vamos a configurar una IP estática a Ubuntu Server 22.04, en este ejemplo dentro de la red de Clase C 192.168.1.0/24:
 
@@ -107,7 +113,7 @@ Current DNS Server: 8.8.8.8
        DNS Servers: 8.8.8.8 8.8.4.4
 ```
 
-## Ampliar el tamaño del disco (sin LVM)
+## Ampliar tamaño del disco (sin LVM)
 
 Apagamos la VM y entramos al menú de VirtualBox _Archivo-Herramientas-Administrador de medios virtuales_.
 
@@ -165,4 +171,12 @@ Filesystem      Size  Used Avail Use% Mounted on
 ...
 /dev/sda2        50G  5,2G   42G  11% /
 ...
+```
+
+# Instalar servidos SSH
+
+Por defecto el servidor SSH no viene instalado en Ubuntu Desktop, para instalarlo:
+
+```bash
+$ sudo apt install openssh-server
 ```

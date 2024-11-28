@@ -1,6 +1,11 @@
-# Tareas Posteriores a la Instalación
+# Tareas Posteriores a la Instalación de Ubuntu Server 22.04
 
-## Actualización del sistema
+* Actualizar el sistema
+* Cambiar el hostname
+* Configurar IP estática
+* Ampliar tamaño del disco (sin LVM)
+
+## Actualizar del sistema
 
 ```bash
 $ sudo apt update
@@ -107,7 +112,7 @@ Current DNS Server: 8.8.8.8
        DNS Servers: 8.8.8.8 8.8.4.4
 ```
 
-## Ampliar el tamaño del disco (sin LVM)
+## Ampliar tamaño del disco (sin LVM)
 
 Apagamos la VM y entramos al menú de VirtualBox _Archivo-Herramientas-Administrador de medios virtuales_.
 
