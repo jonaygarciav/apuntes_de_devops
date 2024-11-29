@@ -1,10 +1,29 @@
 # Tareas Posteriores a la Instalación de Ubuntu Desktop 22.04
 
+* Comprobar la versión del sistema
 * Actualizar el sistema
 * Cambiar el hostname
 * Configurar IP estática
 * Ampliar el tamaño del disco (sin LVM)
 * Instalar servidor SSH
+
+## Comprobar la versión del sistema
+
+```bash
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 24.04.1 LTS
+Release:        24.04
+Codename:       jammy
+```
+
+Comprobar la versión de Debian subyacente:
+
+```bash
+$ cat /etc/debian_version
+trixie/sid
+```
 
 ## Actualizar el sistema
 

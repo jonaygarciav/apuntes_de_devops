@@ -1,12 +1,31 @@
-# Tareas Posteriores a la Instalación de Ubuntu Server 22.04
+# Tareas Posteriores a la Instalación de Linux Mint 21.3
 
+* Comprobar la versión del sistema
 * Actualizar el sistema
 * Cambiar el hostname
 * Configurar IP estática
-* Ampliar tamaño del disco (sin LVM)
-* Instalar servicio SSH
+* Ampliar el tamaño del disco (sin LVM)
+* Instalar servidor SSH
 
-## Actualizar del sistema
+## Comprobar la versión del sistema
+
+```bash
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Linuxmint
+Description:    Linux Mint 21.3
+Release:        21.3
+Codename:       virginia
+```
+
+Comprobar la versión de Debian subyacente:
+
+```bash
+$ cat /etc/debian_version
+bookworm/sid
+```
+
+## Actualizar el sistema
 
 ```bash
 $ sudo apt update
@@ -38,7 +57,7 @@ alumno@ub-server:~$ exec bash
 alumno@mysql-server:~$
 ```
 
-## Configuración IP estática
+## Configurar IP estática
 
 Vamos a configurar una IP estática a Ubuntu Server 22.04, en este ejemplo dentro de la red de Clase C 192.168.1.0/24:
 
@@ -59,7 +78,7 @@ Modificamos el fichero __00-installer-config.yaml__ con la configuración de red
 $ sudo nano /etc/netplan/00-installer-config.yaml
 network:
     version: 2
-    renderer: networkd
+    renderer: NetworkManager
     ethernets:
         enp0s3:
             addresses:
@@ -71,7 +90,7 @@ network:
                   via: 192.168.1.1
 ```
 
-__Nota__: en Ubuntu Server es importante configurar la opción `renderer` con el valor `networkd`. 
+__Nota__: en Ubuntu Desktop es importante configurar la opción `renderer` con el valor `NetworkManager`. 
 
 Restringimos los permisos del fichero:
 
@@ -173,9 +192,9 @@ Filesystem      Size  Used Avail Use% Mounted on
 ...
 ```
 
-# Instalar servicio SSH
+# Instalar servidos SSH
 
-El servicio SSH se puede instalar durante el proceso de instalación, si no marcamos la opción de instalar podemos instalarlo posteriormente con el siguiente comando:
+Por defecto el servidor SSH no viene instalado en Ubuntu Desktop, hay que instalarlo con el siguiente comando:
 
 ```bash
 $ sudo apt install openssh-server
