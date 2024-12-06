@@ -91,7 +91,7 @@ Conexión <<enp0s3>> (bbad9cbf-6bed-4e83-a28f-daf031a3ba09) añadida con éxito.
 ```
 
 ```bash
-$ sudo nmcli connection up enp0se
+$ sudo nmcli connection up enp0s3
 Conexión activada con éxito (ruta activa D-Bus: /org/freedesktop/NetworkManager/ActivateConnection/3)
 ```
 
