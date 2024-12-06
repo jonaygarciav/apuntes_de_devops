@@ -1,4 +1,4 @@
-# Instalación de Ubuntu Desktop 22.04 en VirtualBox
+# Instalación de Ubuntu Desktop 22.04
 
 La VM se ha hecho sobre la versión 7.0.20 de VirtualBox.
 

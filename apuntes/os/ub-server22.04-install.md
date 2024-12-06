@@ -1,4 +1,4 @@
-# Instalación de Ubuntu Server 22.04 en VirtualBox
+# Instalación de Ubuntu Server 22.04
 
 ![][01]
 ![][02]

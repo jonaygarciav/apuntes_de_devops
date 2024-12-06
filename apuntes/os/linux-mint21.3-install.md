@@ -1,4 +1,4 @@
-# Instalación de Linux Mint 21.3 en VirtualBox
+# Instalación de Linux Mint 21.3
 
 Tanto la creación de la VM, así como la instalación del SO y de las VirtualBox Guest Additions se ha hecho sobre la versión 7.0.20 de VirtualBox.
 

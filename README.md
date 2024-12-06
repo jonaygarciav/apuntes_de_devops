@@ -39,6 +39,11 @@ Instalación de SO Linux basados en paquetes .deb:
 * [Instalación Linux Mint 21.3](./apuntes/os/linux-mint21.3-install.md)
     * [Tareas post-instalación](./apuntes/os/linux-mint21.3-post-install.md)
 
+Instalación de SO Linux basados en paquetes .rpm:
+
+* [Instalación Fedora Server 35](./apuntes/os/fd-server35-install.md)
+    * [Tareas post-instalación](./apuntes/os/fd-server35-post-install.md)
+* [Instalación Fedora Workstation 40](./apuntes/os/fd-workstation40-install.md)
 ## Git
 
 * [Clase de Git 04/10/2024](./apuntes/git/clase-git-20241003.md)
