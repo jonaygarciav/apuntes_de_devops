@@ -1,4 +1,4 @@
-# Tareas Posteriores a la Instalación de Fedora Server 35
+# Tareas Posteriores a la Instalación de Fedora Server 40
 
 * Crear el usuario alumno y añadirlo al grupo sudo
 * Comprobar la versión del sistema
@@ -27,7 +27,7 @@
 
 ```bash
 $ cat /etc/fedora-release 
-Fedora release 35 (Thirty Five)
+Fedora release 40 (Forty)
 ```
 
 ## Actualizar el sistema
@@ -73,6 +73,7 @@ Vamos a configurar una IP estática a Fedora Server 35, en este ejemplo dentro d
 $ sudo nmcli connection show
 NAME    UUID                                  TYPE      DEVICE
 enp0s3  38a58955-cb9b-343d-bc0f-644fcba7df54  ethernet  enp0s3
+...
 ```
 
 ```bash
@@ -83,6 +84,7 @@ La conexión «enp0s3» (38a58955-cb9b-343d-bc0f-644fcba7df54) se ha borrado cor
 ```bash
 $ sudo nmcli connection show
 NAME    UUID                                  TYPE      DEVICE
+...
 ```
 
 ```bash
@@ -99,6 +101,7 @@ Conexión activada con éxito (ruta activa D-Bus: /org/freedesktop/NetworkManage
 $ sudo nmcli connection show
 NAME    UUID                                  TYPE      DEVICE
 enp0s3  bbad9cbf-6bed-4e83-a28f-daf031a3ba09  ethernet  enp0s3
+...
 ```
 
 Comprobamos los parámetros de red a ver si se han aplicado correctamente:
@@ -140,9 +143,9 @@ S.ficheros                     Tamaño Usados  Disp Uso% Montado en
 devtmpfs                         4,0M      0  4,0M   0% /dev
 tmpfs                            2,0G      0  2,0G   0% /dev/shm
 tmpfs                            784M   996K  783M   1% /run
-/dev/mapper/fedora_fedora-root    15G   1,5G   14G  10% /
+/dev/mapper/fedora-root           15G   1,5G   14G  10% /
 tmpfs                            2,0G   4,0K  2,0G   1% /tmp
-/dev/sda1                       1014M   215M  800M  22% /boot
+/dev/sda2                       1014M   215M  800M  22% /boot
 tmpfs                            392M      0  392M   0% /run/user/1000
 ```
 
@@ -171,14 +174,14 @@ $ sudo vgdisplay
 ```
 
 ```bash
-$ sudo lvextend -l+100%FREE /dev/mapper/fedora_fedora-root
-  Size of logical volume fedora_fedora/root changed from 15,00 GiB (3840 extents) to <29,00 GiB (7423 extents).
-  Logical volume fedora_fedora/root successfully resized.
+$ sudo lvextend -l+100%FREE /dev/mapper/fedora-root
+  Size of logical volume fedora/root changed from 15,00 GiB (3840 extents) to <29,00 GiB (7423 extents).
+  Logical volume fedora/root successfully resized.
 ```
 
 ```bash
-$ sudo xfs_growfs /dev/mapper/fedora_fedora-root
-meta-data=/dev/mapper/fedora_fedora-root isize=512    agcount=4, agsize=983040 blks
+$ sudo xfs_growfs /dev/mapper/fedora-root
+meta-data=/dev/mapper/fedora-root isize=512    agcount=4, agsize=983040 blks
          =                       sectsz=512   attr=2, projid32bit=1
          =                       crc=1        finobt=1, sparse=1, rmapbt=0
          =                       reflink=1    bigtime=0 inobtcount=0
@@ -197,9 +200,9 @@ S.ficheros                     Tamaño Usados  Disp Uso% Montado en
 devtmpfs                         4,0M      0  4,0M   0% /dev
 tmpfs                            2,0G      0  2,0G   0% /dev/shm
 tmpfs                            784M   996K  783M   1% /run
-/dev/mapper/fedora_fedora-root    29G   1,6G   28G   6% /
+/dev/mapper/fedora-root           29G   1,6G   28G   6% /
 tmpfs                            2,0G   4,0K  2,0G   1% /tmp
-/dev/sda1                       1014M   215M  800M  22% /boot
+/dev/sda2                       1014M   215M  800M  22% /boot
 tmpfs                            392M      0  392M   0% /run/user/1000
 ```
 
