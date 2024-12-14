@@ -6,22 +6,12 @@
 
 ### VirtualBox
 
-Creación de VMs ([Apuntes](./apuntes/virtualizacion/vbox-vm-create.md))
+* Creación de VMs ([Apuntes](./apuntes/virtualizacion/vbox-vm-create.md))
+* Instalación de las VirtualBox Guest Additions ([Apuntes](./apuntes/virtualizacion/vbox-gas-install.md))
+* Acceso remoto por SSH a una VM ([NAT](./apuntes/virtualizacion/vbox-ssh-access.md) | Red NAT | Adaptador Puente)
 
-Instalación de las VirtualBox Guest Additions ([Apuntes](./apuntes/virtualizacion/vbox-gas-install.md))
-
-Acceso remoto por SSH a una VM:
-* Modo NAT ([Apuntes](./apuntes/virtualizacion/vbox-ssh-access.md))
-* Modo red NAT
-* Modo adaptador Puente
-
-Descarga de VirtualBox:
-* Oracle VirtualBox 7.0 ([web](https://www.virtualbox.org/wiki/Download_Old_Builds_7_0))
-* Oracle VirtualBox 7.1 ([web](https://www.virtualbox.org/wiki/Downloads))
-
-Documentación Oficial:
-* Oracle VirtualBox 7.0 ([web](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/index.html) | [pdf](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/EN-VBOX-7-0-USER.pdf))
-* Oracle VirtualBox 7.1 ([web](https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/index.html) | [pdf](https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/EN-VBOX-7-1-USER.pdf))
+* Descarga de VirtualBox ([Oracle VirtualBox 7.0](https://www.virtualbox.org/wiki/Download_Old_Builds_7_0) | ([Oracle VirtualBox 7.1](https://www.virtualbox.org/wiki/Downloads))
+* Documentación Oficial ([Oracle VirtualBox 7.0](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/index.html) | ([Oracle VirtualBox 7.1](https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/index.html))
 
 ### VMware Workstation
 
