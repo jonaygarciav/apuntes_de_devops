@@ -7,10 +7,9 @@
 ### VirtualBox
 
 Creación de VMs ([Apuntes](./apuntes/virtualizacion/vbox-vm-create.md))
-
-Acceso remoto a las VMs:
-
-* [Acceso remoto a una VM mediante SSH](./apuntes/virtualizacion/vbox-ssh-access.md)
+Instalación de las VirtualBox Guest Additions ([Apuntes](./apuntes/virtualizacion/vbox-gas-install.md))
+Acceso remoto por SSH a una VM:
+* Modo NAT ([Apuntes](./apuntes/virtualizacion/vbox-ssh-access.md))
 
 Descarga de VirtualBox:
 * Oracle VirtualBox 7.0 ([web](https://www.virtualbox.org/wiki/Download_Old_Builds_7_0))
