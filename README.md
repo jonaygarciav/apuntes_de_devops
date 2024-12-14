@@ -12,6 +12,8 @@ Instalación de las VirtualBox Guest Additions ([Apuntes](./apuntes/virtualizaci
 
 Acceso remoto por SSH a una VM:
 * Modo NAT ([Apuntes](./apuntes/virtualizacion/vbox-ssh-access.md))
+* Modo red NAT
+* Modo adaptador Puente
 
 Descarga de VirtualBox:
 * Oracle VirtualBox 7.0 ([web](https://www.virtualbox.org/wiki/Download_Old_Builds_7_0))
