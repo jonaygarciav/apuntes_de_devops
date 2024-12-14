@@ -1,8 +1,13 @@
 # Instalar las VMware Tools
 
-VMware recomienda no instalar las VMware Tools, en cambio, instalar las open-vm-tools, que es un paquete que se puede descargar e instalar desde los repositorios.
+Cuando intentamos instalar las _VMware Tools_ aparece el siguiente mensaje:
 
-## Sistemas basados en paquetes APT
+![][01]
+
+
+En su lugar podemos instalar el paquete `open-vm-tools`, que se puede descargar e instalar desde los repositorios oficiales.
+
+## Sistemas basados en paquetes DEB
 
 OS con entorno escritorio (Debian con entorno gráfico, Ubuntu Desktop, Linux Mint):
 
@@ -19,3 +24,5 @@ $ sudo apt install open-vm-tools -y
 
 $ vmware-toolbox-cmd -v
 ```
+
+[01]: ../img/vmware-tools-install/01.png "01"
