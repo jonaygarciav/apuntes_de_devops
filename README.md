@@ -23,9 +23,12 @@ Documentación Oficial:
 * Oracle VirtualBox 7.0 ([web](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/index.html) | [pdf](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/EN-VBOX-7-0-USER.pdf))
 * Oracle VirtualBox 7.1 ([web](https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/index.html) | [pdf](https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/EN-VBOX-7-1-USER.pdf))
 
-### VMware Player
+### VMware Workstation
 
-#TODO
+Instalación de VMware Workstation 17.6.1:
+* Windows ([Apuntes](./apuntes/virtualizacion/vbox-vm-create.md))
+
+Instalación de las VMware Tools ([Apuntes](./apuntes/virtualizacion/vmware-tools-install.md))
 
 ## Sistemas Operativos
 
