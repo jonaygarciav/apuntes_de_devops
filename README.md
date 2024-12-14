@@ -25,10 +25,8 @@ Documentación Oficial:
 
 ### VMware Workstation
 
-Instalación de VMware Workstation 17.6.1:
-* Windows ([Apuntes](./apuntes/virtualizacion/vbox-vm-create.md))
-
-Instalación de las VMware Tools ([Apuntes](./apuntes/virtualizacion/vmware-tools-install.md))
+* Instalación de VMware Workstation 17.6.1 ([Windows](./apuntes/virtualizacion/vmware-workstation17.6.1-install.md))
+* Instalación de las VMware Tools ([Apuntes](./apuntes/virtualizacion/vmware-tools-install.md))
 
 ## Sistemas Operativos
 
