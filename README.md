@@ -6,17 +6,22 @@
 
 ### VirtualBox
 
+* Introducción (¿Qué es VirtualBox? | Modos de Red)
+* Instalación de VirtualBox
 * Creación de VMs ([Apuntes](./apuntes/virtualizacion/vbox-vm-create.md))
 * Instalación de las VirtualBox Guest Additions ([Apuntes](./apuntes/virtualizacion/vbox-gas-install.md))
 * Acceso remoto por SSH a una VM ([NAT](./apuntes/virtualizacion/vbox-ssh-access.md) | Red NAT | Adaptador Puente)
-
 * Descarga de VirtualBox ([Oracle VirtualBox 7.0](https://www.virtualbox.org/wiki/Download_Old_Builds_7_0) | ([Oracle VirtualBox 7.1](https://www.virtualbox.org/wiki/Downloads))
 * Documentación Oficial ([Oracle VirtualBox 7.0](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/index.html) | ([Oracle VirtualBox 7.1](https://docs.oracle.com/en/virtualization/virtualbox/7.1/user/index.html))
 
 ### VMware Workstation
 
+* Introducción (¿Qué es VMware Worksation? | Modos de Red)
 * Instalación de VMware Workstation 17.6.1 ([Windows](./apuntes/virtualizacion/vmware-workstation17.6.1-install.md))
+* Creación de VMs
 * Instalación de las VMware Tools ([Apuntes](./apuntes/virtualizacion/vmware-tools-install.md))
+* Acceso remoto por SSH a una VM
+* Documentación Oficial
 
 ## Sistemas Operativos
 
