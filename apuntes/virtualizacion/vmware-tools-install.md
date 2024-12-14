@@ -9,7 +9,7 @@ En su lugar podemos instalar el paquete `open-vm-tools`, que se puede descargar 
 
 ## Sistemas basados en paquetes DEB
 
-OS con entorno escritorio (Debian con entorno gráfico, Ubuntu Desktop, Linux Mint):
+OS con entorno escritorio (_Debian con entorno gráfico_, _Ubuntu Desktop_, _Linux Mint_):
 
 ```bash
 $ sudo apt install open-vm-tools open-vm-tools-desktop -y
@@ -17,7 +17,7 @@ $ sudo apt install open-vm-tools open-vm-tools-desktop -y
 $ vmware-toolbox-cmd -v
 ```
 
-OS sin entorno escritorio (Debian sin entorno gráfico, Ubuntu Server):
+OS sin entorno escritorio (_Debian sin entorno gráfico_, _Ubuntu Server_):
 
 ```bash
 $ sudo apt install open-vm-tools -y
