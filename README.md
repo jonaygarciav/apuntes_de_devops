@@ -7,7 +7,9 @@
 ### VirtualBox
 
 Creación de VMs ([Apuntes](./apuntes/virtualizacion/vbox-vm-create.md))
+
 Instalación de las VirtualBox Guest Additions ([Apuntes](./apuntes/virtualizacion/vbox-gas-install.md))
+
 Acceso remoto por SSH a una VM:
 * Modo NAT ([Apuntes](./apuntes/virtualizacion/vbox-ssh-access.md))
 
