@@ -36,10 +36,6 @@
 
 #TODO
 
-### Docker Swarm
-
-#TODO
-
 ## Sistemas Operativos
 
 Comprobación de la integridad de la imagen ISO de un OS:
@@ -50,7 +46,7 @@ Instalación de SO Linux basados en paquetes `DEB`:
 
 * Instalación Ubuntu Server 22.04 ([Apuntes](./apuntes/os/ub-server22.04-install.md) | [Post instalación](./apuntes/os/ub-server22.04-post-install.md))
 * Instalación Ubuntu Desktop 22.04 ([Apuntes](./apuntes/os/ub-desktop22.04-install.md) | [Post instalación](./apuntes/os/ub-desktop22.04-post-install.md))
-* Instalación Linux Mint 21.3 ([Apuntes](./apuntes/os/linux-mint21.3-install.md) | [Tareas post-instalación](./apuntes/os/linux-mint21.3-post-install.md))
+* Instalación Linux Mint 21.3 ([Apuntes](./apuntes/os/linux-mint21.3-install.md) | [Post instalación](./apuntes/os/linux-mint21.3-post-install.md))
 
 Instalación de SO Linux basados en paquetes `RPM`:
 
